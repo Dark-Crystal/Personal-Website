@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.hsec{
+    width: 40%;
+    float: left;
+    margin: 5px;
+    
+}
+.hsec img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(230, 110, 130), deeppink);
+    color: white;
+    font-size: 100;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.hello{
+    height: 1000px;
+    border: 1px solid red;
+    background-image: url("image/header-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
