@@ -10,15 +10,18 @@ h2{
 }
 p{
     color: dimgray;
+    font-size: 20px;
+    text-align: justify;
 }
 .hsec{
-    width: 40%;
     float: left;
-    margin: 5px;
-    
+    width: 40%;
+    padding: 2%;
+    box-sizing: border-box;
 }
 .hsec img{
-    width: 100%;
+    width: 80%;
+    height: 80%;
 }
 .button{
     text-decoration: none;
@@ -29,10 +32,70 @@ p{
     border-radius: 5px;
 }
 .hello{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
     height: 1000px;
-    border: 1px solid red;
     background-image: url("image/header-bg.png");
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+.bio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image: url("image/biography-bg.png");
+    background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
+    box-sizing: border-box;
 
+}
+.mwork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    background-image: url("image/latest-work-bg.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.wimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 10px;
+}
+.mwork img{
+    margin: 0px 1%;
+    width: 25%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    height: 1000px;
+    background-image: url("image/footer-bg.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+    margin: 50px;
+}
+.center p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
